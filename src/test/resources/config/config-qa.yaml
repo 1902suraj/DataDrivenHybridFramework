@@ -1,0 +1,11 @@
+# Sample YAML config for Hybrid Test Automation Framework
+browser: chrome
+baseUrl: "https://example.com"
+timeout: 30
+headless: false
+environment: QA
+database:
+  url: "jdbc:mysql://localhost:3306/testdb"
+  username: "testuser"
+  password: "testpass"
+  driver: "com.mysql.cj.jdbc.Driver"
